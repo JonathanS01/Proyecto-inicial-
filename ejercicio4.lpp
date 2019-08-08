@@ -1,0 +1,55 @@
+
+entero c
+
+
+inicio
+
+escriba "ingresando a cine"
+llamar nueva_linea
+escriba " ingrese su edad"
+llamar nueva_linea
+
+lea c
+	si (c>90) entonces 
+				escriba "anciano"
+				sino 
+			            	si (c>65) y (c<=90) entonces
+				                                escriba "tercera edad"
+				                                                  sino
+				si (c<=65) y (c>40) entonces
+				                    escriba "adulto mayor"
+		     	                                      sino 
+		     	si (c<=40) y (c>17) entonces
+		     	                     escriba " adulto"
+		     	                                   sino
+		     	si (c<=17) y (c>15) entonces
+		     	   escriba " joven"
+		     	   sino  
+		     	si (c<=15) y (c>10) entonces
+		     	   escriba "adolecente"
+		     	   sino         
+			    si (c<=10) y (c>1)entonces
+			       escriba " niño"
+			                  sino
+			               si (c<=1) entonces
+			                      escriba "bebe"
+			                                  sino   
+			       
+			    fin si
+			    fin si
+                fin si			
+                fin si			
+				fin si
+	            fin si		
+				fin si 
+				fin si
+   
+  
+
+
+
+
+
+
+
+fin
