@@ -1,0 +1,59 @@
+
+  entero c
+  inicio
+  	
+    escriba " ingresando a cine "
+    	llamar nueva_linea
+    		escriba " presentar cedula "
+    			lea c
+    				si (c>90) entonces
+    					escriba " anciano "
+    						sino 
+    							fin si	
+    								si (c>65) y (c<=90) entonces
+    									escriba "tercera edad "
+    										escriba " pelicula adultos "
+    										sino 
+    										
+    											fin si
+    												si (c<60) y (c>40) entonces
+    													escriba " adulto mayor "
+    														escriba " pelicula adultos "
+    													fin si
+    														si (c<40) y (c>17) entonces
+    															escriba " adulto"
+    																escriba " pelicula adultos "
+    																sino 
+    																	fin si
+    																	si (c<=17) y (c>=15) entonces
+    																		escriba " joven "
+    																			escriba " pelicula nenas "
+    																			sino 
+    																			fin si
+    																		si (c<15) y (c>10) entonces
+    																			escriba " adolecente "
+    																				escriba " pelicula adolecentes "
+    																			fin si
+    																				si (c<10) y (c>1) entonces
+    																					escriba " niño "
+    																							escriba " peliculas bebes "
+    																						fin si
+    																							si (c<=1) entonces
+    																								escriba " bebe "
+    																									escriba " peliculas para bebe "
+    																								fin si
+    																				
+    																				
+    													
+    												
+    	
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   fin 													
