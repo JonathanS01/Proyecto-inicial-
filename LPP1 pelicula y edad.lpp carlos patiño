@@ -35,7 +35,7 @@
     																				escriba " pelicula adolecentes "
     																			fin si
     																				si (c<10) y (c>1) entonces
-    																					escriba " niño "
+    																					escriba " niÃ±o "
     																							escriba " peliculas bebes "
     																						fin si
     																							si (c<=1) entonces
