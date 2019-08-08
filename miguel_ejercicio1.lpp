@@ -1,0 +1,32 @@
+real a,b,c
+
+
+
+
+inicio
+escriba "sumando dos numeros por teclado"
+llamar nueva_linea
+escriba " ingrese el primer numero"
+llamar nueva_linea
+lea a
+escriba "ingrese el segundo numero"
+llamar nueva_linea
+lea b
+c <-a+b
+escriba " su respuesta a ",a,   "      mas       "  ,b,  "      es:     " ,c
+llamar nueva_linea
+escriba "la suma de a que es      ", a, "   mas b que es    ", b, "   es:   ",c
+
+
+
+
+
+
+
+
+
+
+
+
+
+fin

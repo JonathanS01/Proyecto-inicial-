@@ -1,0 +1,29 @@
+
+entero c
+
+
+inicio
+
+escriba "ingresando a cine"
+llamar nueva_linea
+escriba " ingrese su edad"
+llamar nueva_linea
+
+lea c
+	si (c>18) entonces 
+				escriba "ingresa a pelicula adultos"
+   
+	sino 
+  			si (c<12) entonces		
+	        	escriba "ingresa a palicula bebes"
+	        		sino escriba " ingresa a peliculas adolecentes "
+	        	fin si 
+	fin si 
+
+
+
+
+
+
+
+fin
