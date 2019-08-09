@@ -1,0 +1,20 @@
+entero numero, suma
+inicio
+
+numero <-0
+suma <-0
+lea numero
+lea suma
+mientras(numero<=10) haga
+
+escriba numero
+llamar nueva_linea
+suma <- suma+numero
+escriba "la suma va en   ",suma
+numero <- numero+1
+llamar nueva_linea
+llamar obtener_caracter
+fin mientras
+escriba SUMA,"    ES EL TOTAL DE LA SUMA    "
+
+fin
