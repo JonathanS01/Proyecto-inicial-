@@ -1,0 +1,14 @@
+entero numero,suma 
+inicio 
+	suma<-0
+	numero<-1
+		mientras (numero<=20) haga
+			escriba suma
+			llamar nueva_linea
+			suma<-suma + numero 
+			numero<-numero + 2 
+				llamar obtener_caracter
+				escriba numero ,"     "
+		fin mientras
+			escriba " La suma total es  ",  suma 
+fin 		
