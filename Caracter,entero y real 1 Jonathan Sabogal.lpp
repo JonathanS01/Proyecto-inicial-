@@ -1,0 +1,40 @@
+Real a, b, ca
+Caracter c
+entero opcion2,base,h,area,lado,radio,pi
+INICIO 
+	ESCRIBA "Ingrese un caracter del menu : "
+	LLAMAR NUEVA_LINEA 
+	ESCRIBA "S para suma : "
+	LLAMAR NUEVA_LINEA
+	ESCRIBA "R para resta  : " 
+	LLAMAR NUEVA_LINEA 
+	ESCRIBA "Caracter distinto S o R para terminar " 
+	LLAMAR NUEVA_LINEA 
+	LEA c
+	CASO c
+		'S','s':ESCRIBA "Vamos a la suma: "
+				LLAMAR NUEVA_LINEA 
+				ESCRIBA "Escriba primer numero: "
+				LLAMAR NUEVA_LINEA
+				LEA a
+				ESCRIBA "Escriba segundo numero: " 
+				LLAMAR NUEVA_LINEA 
+				LEA b
+				LLAMAR NUEVA_LINEA 
+				ca<- a+b
+				llamar color_fondo (11)
+				ESCRIBA "la suma total es:", ca 
+		'R','r':ESCRIBA "Vamos a la resta: " 
+				LLAMAR NUEVA_LINEA 
+				ESCRIBA "Escriba primer numero: " 
+				LLAMAR NUEVA_LINEA 
+				LEA a
+				Escriba "Escriba segundo numero: " 
+				LLAMAR NUEVA_LINEA 
+				LEA b
+				ca <-a-b
+				llamar color_fondo (14)
+				ESCRIBA " la resta total es: ", ca /* trabajo realizado*/				 
+		sino:escriba "opcion invalida"		
+	FIN CASO
+FIN

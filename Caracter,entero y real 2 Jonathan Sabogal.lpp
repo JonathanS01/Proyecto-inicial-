@@ -1,0 +1,74 @@
+Real a, b, ca
+Caracter c
+entero opcion2,base,h,area,lado,radio,pi
+INICIO 
+	ESCRIBA "Ingrese un caracter del menu : "
+	LLAMAR NUEVA_LINEA 
+	ESCRIBA "S para suma : "
+	LLAMAR NUEVA_LINEA
+	ESCRIBA "R para resta  : " 
+	LLAMAR NUEVA_LINEA 
+	ESCRIBA "Caracter distinto S o R para terminar " 
+	LLAMAR NUEVA_LINEA 
+	LEA c
+	CASO c
+		'S','s':ESCRIBA "Vamos a la suma: "
+				LLAMAR NUEVA_LINEA 
+				ESCRIBA "Escriba primer numero: "
+				LLAMAR NUEVA_LINEA
+				LEA a
+				ESCRIBA "Escriba segundo numero: " 
+				LLAMAR NUEVA_LINEA 
+				LEA b
+				LLAMAR NUEVA_LINEA 
+				ca<- a+b
+				llamar color_fondo (11)
+				ESCRIBA "la suma total es:", ca 
+		'R','r':ESCRIBA "Vamos a la resta: " 
+				LLAMAR NUEVA_LINEA 
+				ESCRIBA "Escriba primer numero: " 
+				LLAMAR NUEVA_LINEA 
+				LEA a
+				Escriba "Escriba segundo numero: " 
+				LLAMAR NUEVA_LINEA 
+				LEA b
+				ca <-a-b
+				llamar color_fondo (14)
+				ESCRIBA " la resta total es: ", ca /* trabajo realizado*/
+		'P','p':escriba "Digite opcion a selecciona" 
+				llamar nueva_linea
+				escriba "1 para area del triangulo "
+				llamar nueva_linea
+				escriba "50 para area del cuadrado"  
+				llamar nueva_linea
+				escriba "8 para area del circulo "
+				llamar nueva_linea 
+					lea opcion2
+					caso opcion2
+						1:  escriba "Ingrese numero para la base "
+							lea base
+							llamar nueva_linea 
+							escriba "ingrese el valor de la altura "
+							lea h 
+							area<-(base*h)/2
+							llamar color_fondo (10)
+							escriba "El area del triangulo es: ", area
+						50: escriba "Ingrese numero lado "
+							lea lado
+							area<-lado*lado
+							llamar color_fondo (8)
+							escriba "El area del cuadrado es: ", area
+					 	8:  escriba "Ingrese numero del radio "
+							lea radio
+							llamar nueva_linea 
+							escriba "ingrese pi "
+							lea pi 
+							area<-pi*(radio*radio)
+							llamar color_fondo (7)
+							escriba "El area del circulo es: ", area
+						sino:escriba "opcion invalida"
+					fin caso		
+						 
+		sino:escriba "opcion invalida"		
+	FIN CASO
+FIN
