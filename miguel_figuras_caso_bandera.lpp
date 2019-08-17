@@ -1,0 +1,184 @@
+/* hecho por Miguel realización menú*/
+
+real A,B,CA
+caracter C, x
+entero opcion2, base, h, area, area_c, radio, numero, suma_serie
+cadena [10] nombre
+cadena [2] bandera
+
+
+
+
+
+
+inicio
+
+escriba "ingrese un caracter del menú"
+llamar nueva_linea
+escriba " s para la suma"
+llamar nueva_linea
+escriba " r para la resta"
+llamar nueva_linea
+escriba " p para la opción 2 calcular medidas figuras"
+llamar nueva_linea
+escriba "caracter distinto termina el programa"
+llamar nueva_linea
+
+
+lea c
+					caso c
+					's','S','+': escriba " vamos a la suma  "
+					llamar nueva_linea
+					escriba "escriba primer numero"
+					llamar nueva_linea
+
+					lea A
+					llamar nueva_linea
+					escriba " escriba el segundo numero"
+					llamar nueva_linea
+
+					lea B
+					llamar nueva_linea
+					CA <- A+B
+					escriba " la suma es   ", CA
+
+					'r','R','-': escriba " vamos a la resta  "
+					llamar nueva_linea
+					escriba "escriba primer numero"
+					llamar nueva_linea
+
+					lea A
+					llamar nueva_linea
+					escriba " escriba el segundo numero"
+					llamar nueva_linea
+
+					lea B
+					llamar nueva_linea
+					CA <- A-B
+					escriba " la resta es   ", CA
+
+					'p','P': escriba "digite opcion a seleccionar"
+					llamar nueva_linea
+					escriba " 1 para triangulo"
+					llamar nueva_linea
+					escriba " 2 para area cuadrado"
+					llamar nueva_linea
+					escriba " 3 para circulo"
+					llamar nueva_linea
+					escriba " 4 para entrar a sub menu"
+					llamar nueva_linea
+
+lea opcion2
+
+					caso opcion2
+  						 1: escriba "ingrese el numero para la base"
+ 						  llamar nueva_linea
+ 						  lea base
+  						  llamar nueva_linea
+  					      escriba " ingrese el numero para la altura"
+   						  llamar nueva_linea
+ 						  lea h 
+ 						  llamar nueva_linea
+ 						  area <- (base*h)/2
+   						  escriba "el area del triangulo es:    ", area
+   
+   
+  						 2: escriba "ingrese el numero para la base del cualdrado"
+   					     llamar nueva_linea
+      					 lea base
+     					 llamar nueva_linea
+      					 escriba " ingrese la altura del cuadrado"
+     					 llamar nueva_linea
+     					 lea h
+     					 llamar nueva_linea
+    				     area_c <- (base*h)
+      					 escriba " el area del cuadrado es:    ", area_c
+      
+      
+   						 3: escriba " ingrese el radio del circulo"
+    					 llamar nueva_linea
+      					 lea radio
+       					 radio <-  (3.1416 *radio*radio)
+      					 escriba " el radio es:   ", radio 
+      					 
+      					 4: escriba "ingrese a sub_menu"
+      					    llamar nueva_linea
+      					 
+      					 
+      					 
+                                        escriba "ingrese un caracter del menú"
+										llamar nueva_linea
+										escriba " n para escribir el nombre"
+										llamar nueva_linea
+										escriba " b para caso bandera"
+										llamar nueva_linea
+										escriba " c mostrar nombre del día"
+										llamar nueva_linea
+										escriba "caracter distinto termina el programa"
+										llamar nueva_linea
+										
+lea x
+
+									    		caso x
+										    		
+										    		
+										    		'n','N': escriba " escriba el nombre"
+      														llamar nueva_linea 
+      														lea nombre
+      														escriba " gracias por usar el aplicativo   ", nombre 
+      												'b','B': 
+                         									numero <- 1
+                         									suma_serie <- 0
+                         									bandera <- "T"
+                         										mientras (numero <7) haga
+                         										suma_serie <- suma_serie+numero
+                         										escriba numero
+                         										
+                         										si (bandera = "T") entonces
+                         										    numero <- numero + 3 
+                         										    bandera <- "Z"
+                         										sino
+                         											numero<- numero + 2
+                         											bandera <- "T"
+                         										fin si
+                         										fin mientras
+                         										escriba suma_serie	    
+                         						
+                         							'c','C': escriba " hoy es viernes"
+                         							        llamar nueva_linea
+                         							sino: escriba "ERROR"
+                         							fin caso               		
+      
+     			 	sino: escriba "no esta la opcion en el menu"
+     				fin caso
+      
+    
+  
+
+sino: escriba "opcion invalida"
+fin caso 
+fin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

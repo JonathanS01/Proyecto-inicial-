@@ -1,0 +1,53 @@
+/* hecho por Miguel realización menú*/
+
+real A,B,CA
+caracter C
+entero opcion2, base, h, area
+
+inicio
+
+escriba "ingrese un caracter del menú"
+llamar nueva_linea
+escriba " s para la suma"
+llamar nueva_linea
+escriba " r para la resta"
+llamar nueva_linea
+escriba "caracter distinto termina el programa"
+llamar nueva_linea
+
+
+lea c
+caso c
+'s','S','+': escriba " vamos a la suma  "
+llamar nueva_linea
+escriba "escriba primer numero"
+llamar nueva_linea
+
+lea A
+llamar nueva_linea
+escriba " escriba el segundo numero"
+llamar nueva_linea
+
+lea B
+llamar nueva_linea
+CA <- A+B
+escriba " la suma es   ", CA
+
+'r','R','-': escriba " vamos a la resta  "
+llamar nueva_linea
+escriba "escriba primer numero"
+llamar nueva_linea
+
+lea A
+llamar nueva_linea
+escriba " escriba el segundo numero"
+llamar nueva_linea
+
+lea B
+llamar nueva_linea
+CA <- A-B
+escriba " la resta es   ", CA
+
+sino: escriba "opcion invalida"
+fin caso 
+fin

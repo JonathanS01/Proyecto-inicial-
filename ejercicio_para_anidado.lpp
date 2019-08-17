@@ -1,0 +1,44 @@
+entero i, j, suma 
+
+	INICIO
+	suma <-0
+	para i<- 2 hasta 8 haga 
+	escriba i
+	llamar nueva_linea
+	i<- i + 1 
+	fin para
+	
+	
+	llamar nueva_linea
+	llamar nueva_linea
+	
+	
+	escriba " ahora numeros impares"
+	llamar nueva_linea
+	para i<- 1 hasta 8 haga 
+	escriba i
+	llamar nueva_linea
+	i<- i + 1 
+	
+		para j <- 5 hasta 7 haga
+			escriba "noche"
+			llamar nueva_linea
+		fin para 
+		
+			suma <- suma + 1
+			escriba "soy   ",suma
+			llamar nueva_linea
+			
+	
+	
+	
+	
+	
+	
+	
+	fin para  
+	
+	
+	
+	
+	FIN
