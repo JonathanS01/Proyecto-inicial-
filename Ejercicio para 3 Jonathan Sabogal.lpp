@@ -1,0 +1,24 @@
+entero i,j,suma
+inicio 
+	suma<-0
+	para i<-1 hasta 8 haga 
+		escriba i
+		i<-i+1
+		llamar nueva_linea 
+	fin para 
+	llamar nueva_linea 
+	llamar nueva_linea
+	escriba "Numeros pares"
+	llamar nueva_linea
+	para i<-0 hasta 8 haga 
+		escriba i
+		i<-i+1
+		llamar nueva_linea
+			para j<-5 hasta 7 haga 
+				escriba "noche"
+				llamar nueva_linea 
+			fin para 	
+						
+	fin para 	
+		
+fin		

@@ -1,0 +1,7 @@
+entero i
+inicio 
+	para i<-1 hasta 8 haga 
+		escriba i
+		llamar nueva_linea 
+	fin para 
+fin 		
