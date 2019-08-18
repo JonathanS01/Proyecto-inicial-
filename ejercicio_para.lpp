@@ -5,13 +5,15 @@ entero i
 /*	para i<- 0 hasta 8 haga 
 	escriba i
 	llamar nueva_linea
-	i<- i + 1 
+	llamar color_fondo (11)
+	i<- i + 6 
 	fin para*/
 	
 	para i<- 1 hasta 8 haga 
 	escriba i
 	llamar nueva_linea
-	i<- i + 1 
+	llamar color_fondo (11)
+	i<- i + 5
 	fin para
 	
 	
