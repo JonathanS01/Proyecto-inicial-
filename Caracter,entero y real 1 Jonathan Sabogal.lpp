@@ -14,6 +14,7 @@ INICIO
 	CASO c
 		'S','s':ESCRIBA "Vamos a la suma: "
 				LLAMAR NUEVA_LINEA 
+				Llamar Color_Fondo(3)
 				ESCRIBA "Escriba primer numero: "
 				LLAMAR NUEVA_LINEA
 				LEA a
