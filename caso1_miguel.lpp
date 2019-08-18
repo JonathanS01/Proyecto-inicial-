@@ -3,8 +3,11 @@ entero numero
 inicio
 
 escriba " ingrese una opcion del menu"
-llamar nueva_linea
+llamar nueva_lineal
 escriba " digite 1 para suma"
+llamar nueva_linea
+llamar nueva_linea
+Llamar Color_Fondo(5)
 llamar nueva_linea
 escriba " digite 2 para  resta"
 llamar nueva_linea
