@@ -5,14 +5,16 @@ inicio
 	lea numero
 	escriba "Escriba la suma"
 	lea suma
-		mientras (numero <= 10) haga
+		mientras (numero <= 100) haga
 			escriba suma
 			llamar nueva_linea
 			suma <-suma + numero 
 			numero <-numero + 1 
+				llamar nueva_linea 
+				llamar color_fondo (11)
 				llamar obtener_caracter
 				escriba numero, " "
 		fin mientras
-			escriba "La suma total es", suma 
+			escriba "La suma total es", suma , numero
 fin
 		
