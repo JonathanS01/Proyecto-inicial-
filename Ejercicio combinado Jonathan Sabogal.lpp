@@ -1,0 +1,60 @@
+entero numero1,z,b,suma
+cadena [2] c
+caracter i
+real numero2
+inicio 
+	escriba "Ingrese nuemro"
+	llamar nueva_linea
+	lea numero1
+		mientras (numero1=521) haga 
+					llamar nueva_linea 
+					llamar obtener_caracter 
+					escriba "Exito"	
+					llamar nueva_linea 
+					lea numero1
+		Fin mientras 
+	llamar nueva_linea
+	llamar nueva_linea	
+	escriba "Ingrese un caracter del menu:"
+	llamar nueva_linea
+	llamar nueva_linea
+	escriba "C o c para multiplicacion"
+	llamar nueva_linea
+	llamar nueva_linea
+	escriba "Otro caracter para resta" 
+	llamar nueva_linea
+	llamar nueva_linea 
+	lea c
+		si (c= "c") o (C="C") entonces 
+		   escriba "Vamos a la multiplicacion"
+		   b<- 5*2
+		   llamar nueva_linea
+		   escriba "El resultado es: ",b
+		sino		   		
+		   escriba "vamos a la resta" 
+		   b<-5-2
+		   llamar nueva_linea 
+		   escriba "EL resultado es: ",b			   
+		fin si 
+	llamar nueva_linea
+	llamar nueva_linea    
+	lea suma 		 
+		suma <-0
+			para z <-1 hasta 10 haga 
+				z <-z + 1
+				suma<-suma+z
+				llamar nueva_linea				
+	    	fin para 
+	    	escriba "la suma de los pares es: ",suma 	 
+	 llamar nueva_linea 
+	 llamar nueva_linea 
+	 escriba "escriba numero"
+	 llamar nueva_linea
+	 llamar nueva_linea   
+	 lea numero2   	
+  	 numero2<-numero2*10
+  	 llamar nueva_linea  
+  	 llamar nueva_linea  
+  	 llamar color_fondo (11) /* Ejercicio terminado*/
+  	 escriba "La multiplicacion de numero2 es: ",numero2    	
+fin 			
