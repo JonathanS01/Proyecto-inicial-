@@ -1,0 +1,22 @@
+arreglo [2,4] de cadena [12] nombres
+entero filas, columnas
+	inicio
+	nombres [1,1]<-"aniceta"
+	nombres [1,2]<-"romelia"
+	nombres [1,3]<-"mirolindo"
+	nombres [1,4]<-"rosario"
+	nombres [2,1]<-"temistocles"
+	nombres [2,2]<-"zoraines"
+	nombres [2,3]<-"paulino"
+	nombres [2,4]<-"carlina"
+	para filas<-1 hasta 2 haga
+	para columnas<-1 hasta 4 haga
+		escriba nombres [filas, columnas], " "
+		llamar nueva_linea
+		llamar nueva_linea
+		fin para
+		llamar nueva_linea
+	fin para
+	fin
+		
+	

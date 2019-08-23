@@ -1,0 +1,17 @@
+arreglo[9] de cadena [10] cifra
+entero n
+inicio
+	cifra[1]<-"8"
+	cifra[3]<-"7"
+	cifra[5]<-"1"
+	cifra[7]<-"6"
+	cifra[2]<-"30"
+	cifra[4]<-"24"
+	cifra[6]<-"0"
+	cifra[8]<-"5"
+	cifra[9]<-"4"
+	para n<-1 hasta 9 haga
+	escriba cifra[n]
+	llamar nueva_linea
+	fin para
+fin

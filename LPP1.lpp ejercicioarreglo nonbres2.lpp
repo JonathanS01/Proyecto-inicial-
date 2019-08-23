@@ -1,0 +1,19 @@
+arreglo [2,4] de cadena [12] nombres
+entero filas, columnas
+	inicio
+
+	para filas<-1 hasta 2 haga
+	para columnas<-1 hasta 4 haga
+	lea nombres [filas, columnas]
+	llamar nueva_linea
+	fin para
+fin para
+		escriba nombres [filas, columnas], " "
+		llamar nueva_linea
+		llamar nueva_linea
+		fin para
+		
+	fin para
+	fin
+		
+	

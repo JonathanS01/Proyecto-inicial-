@@ -1,0 +1,14 @@
+real r
+
+	inicio
+	llamar inicializar_aleatorio ()
+		repita
+		r<-aleatorio()*10
+		escriba " el numero generado es: ",r
+		llamar nueva_linea
+		hasta r=0
+		fin  
+
+	
+		
+	

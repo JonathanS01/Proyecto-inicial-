@@ -1,0 +1,11 @@
+entero n
+caracter x
+	inicio
+	n<-92
+	x<-car (n)
+	escriba " el caracter ascii de " ,"n,es: ",x
+	llamar nueva_linea
+	fin
+	
+		
+	
