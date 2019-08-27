@@ -1,0 +1,35 @@
+arreglo[10] de entero vector
+entero fila, columna, auxiliar
+inicio
+llamar color_texto(11)
+	vector[1]<-1
+	vector[2]<-2
+	vector[3]<-3
+	vector[4]<-4
+	vector[5]<-5 
+	Escriba "llenado de vector con numeros"
+	llamar nueva_linea
+	para fila<-1 hasta 5 haga
+		escriba vector[fila]
+	fin para
+	
+	llamar nueva_linea
+	
+		para fila<-1 hasta 5 haga
+			para columna<-1 hasta 5-fila haga
+				si vector[columna]>vector[columna+1] entonces
+					auxiliar<-vector[columna]
+					vector[columna]<-vector[columna+1]
+					vector[columna+1]<-auxiliar
+				fin si
+			fin para
+		fin para
+		
+		Escriba "imprimiendo los numeros del vector de forma ascendente"
+		llamar nueva_linea
+		
+		para fila<-1 hasta 5 haga
+			escriba "posicion ", fila, " es: ", vector[fila]
+			llamar nueva_linea
+		fin para
+fin 
