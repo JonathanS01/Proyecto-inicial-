@@ -1,0 +1,13 @@
+
+
+ entero n
+ caracter x
+ 
+ inicio 
+ 
+ Para n <- 0 Hasta 255 Haga
+ x<- car (n)
+ escriba " el codigo ascii es:",n, "     ", x
+ llamar nueva_linea
+Fin Para
+fin 

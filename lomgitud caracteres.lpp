@@ -1,0 +1,10 @@
+    entero n
+    cadena [20] x
+    
+    inicio
+    
+    x<- "miguel rodriguez"
+    n<- longitud(x)
+    escriba " la longitud en caracteres de ", x , " es ", n
+    
+    fin

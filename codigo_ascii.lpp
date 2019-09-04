@@ -1,0 +1,14 @@
+
+
+	entero n
+	caracter x
+	
+	
+	inicio
+	
+	n<- 64 
+	x<- car(n)
+	escriba " El caracter ascci de", n , " es: ", x
+	
+	
+	fin 

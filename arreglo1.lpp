@@ -1,0 +1,26 @@
+
+arreglo[9] de cadena [10] cifra
+entero n
+inicio
+
+/*cifra [1]<-"8"
+cifra [2]<-"7"
+cifra [3]<-"1"
+cifra [4]<-"6"
+cifra [5]<-"30"
+cifra [6]<-"24"
+cifra [7]<-"0"
+cifra [8]<-"5"
+cifra [9]<-"4estardeyaparajugar"*/
+
+Para n <- 1 Hasta 9  Haga
+lea cifra [n]
+llamar nueva_linea
+Fin Para
+
+para n<-1 hasta 9 haga
+	escriba cifra[n]
+	llamar nueva_linea
+	fin para
+	
+	fin

@@ -1,0 +1,77 @@
+  
+  entero numero1, a,b,d,pares, suma
+  cadena [2] c
+  caracter i
+  real numero2
+  
+  inicio
+  
+  					
+  					escriba "digite un numero entero"
+  					llamar nueva_linea
+  					lea numero1
+  
+  	 mientras (numero1 = 521) haga
+ 					escriba " exito  " 
+  					llamar obtener_caracter
+  
+  
+ 	                 escriba " digite un numero entero"
+ 	                 llamar nueva_linea
+ 	 				 lea numero1
+  					 llamar nueva_linea
+  	 fin mientras
+  	 
+  	 
+  	 	     		 escriba "ingrese cadena "
+  	 		 		 lea c
+  	 				 llamar nueva_linea
+  	 		 si (c = "c") o (c= "C")  entonces
+  	 		         escriba "ingrese numero para multiplicar"
+  	 		 		 llamar nueva_linea
+  	 				 lea a
+  	 				 b <- a *2
+  	 				 escriba "el total de la suma es ",b
+  	 				 llamar nueva_linea
+  	 		 sino
+  	 				 escriba "numero para restar"
+  	 				 llamar nueva_linea
+  	 		 		 lea d
+  	 	             b <-  d - 2
+  	 	             escriba " la resta es ",b
+  	 	             llamar nueva_linea
+  	 	    
+  	 	    fin si
+  	 	    
+  	 	    		 escriba "escriba un caracter"
+  	 	  			 llamar nueva_linea
+  	 	             lea i
+  	 	    
+  	 	    si       (i = 'z') entonces
+  	 	   			 para pares<- 1 hasta 10 haga
+  	 	   			 pares <- pares + 1
+  	 	   			 llamar nueva_linea
+  	 	   			 escriba pares
+  	 	   			 
+  	 	   			 
+  	 	    fin para
+                     
+                     
+            sino 
+            		 escriba " mal"
+            		 llamar nueva_linea
+  	 		 
+   			fin si
+   
+  						 escriba "escriba un numero"
+  						 llamar nueva_linea
+  						 lea numero2
+   
+ 						 a<- numero2 * 10 
+  						 escriba " la multiplicación es     ",a
+  
+  
+  
+  
+  fin
+  

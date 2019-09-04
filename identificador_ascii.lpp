@@ -1,0 +1,13 @@
+    
+    
+    entero n
+    caracter x
+    
+    inicio
+    
+    x<- '@'
+    n<- valor_ascii(x)
+    escriba " el caracter ascii de ", x , " es ", n
+    
+    fin
+    

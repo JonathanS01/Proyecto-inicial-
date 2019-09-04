@@ -1,4 +1,4 @@
-/* hecho por Miguel realizaciÃ³n menÃº*/
+/* hecho por Miguel realización menú*/
 
 real A,B,CA
 caracter C
@@ -6,7 +6,7 @@ entero opcion2, base, h, area
 
 inicio
 
-escriba "ingrese un caracter del menÃº"
+escriba "ingrese un caracter del menú"
 llamar nueva_linea
 escriba " s para la suma"
 llamar nueva_linea
@@ -46,8 +46,6 @@ llamar nueva_linea
 lea B
 llamar nueva_linea
 CA <- A-B
-llamar nueva_linea 
-llamar color_fondo (11)
 escriba " la resta es   ", CA
 
 sino: escriba "opcion invalida"
